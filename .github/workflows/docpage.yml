@@ -20,7 +20,7 @@ jobs:
         run: |
           go get github.com/tmedwards/tweego
           export PATH=$PATH:$(go env GOPATH)/bin
-          tweego -o dist/index.html *
+          tweego -o dist/index.html ./sugarcube22-google-analytics.js ./test/test.tw
 
 
       - name: Deploy
