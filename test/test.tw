@@ -1,0 +1,19 @@
+:: StoryData
+{
+    "ifid": "901F7A0D-7FBB-44CB-A359-40C756D9E7AE"
+}
+
+::StoryTitle
+Testing Google Analytics for Sugarcube2.
+
+:: StoryInit
+<<ga "G-H5LD6QYYWW">>
+
+:: Start 
+Testing Google Analytics for Sugarcube2.
+
+[[Test]]
+
+:: Test
+
+<<back>>
